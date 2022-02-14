@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica04_00000216663">
         <activity
-            android:name=".MainActivity"
+            android:name=".RegisterPage"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomePage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
