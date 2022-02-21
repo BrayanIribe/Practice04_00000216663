@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica04_00000216663">
         <activity
+            android:name=".ProductsPage"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPage"
+            android:exported="false" />
+        <activity
             android:name=".RegisterPage"
             android:exported="false" />
         <activity

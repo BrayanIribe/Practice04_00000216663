@@ -9,4 +9,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="accent_pink">#FE2BD0</color>
+    <color name="condenced">#B60089</color>
+    <color name="light">#262525</color>
+    <color name="bold">#9E2E81</color>
 </resources>

@@ -13,7 +13,7 @@ class RegisterPage : AppCompatActivity() {
 
         val button: Button = findViewById(R.id.button_sign_in) as Button
         button.setOnClickListener {
-            var intent: Intent = Intent(this, MenuPage::class.java)
+            var intent:Intent = Intent(this, MenuPage::class.java)
             startActivity(intent)
         }
     }

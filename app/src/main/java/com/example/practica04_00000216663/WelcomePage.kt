@@ -11,7 +11,7 @@ class WelcomePage : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val buttonClick = findViewById<Button>(R.id.btnGetStarted)
         buttonClick.setOnClickListener {
-            val intent = Intent(this, RegisterPage::class.java)
+            var intent:Intent = Intent(this, RegisterPage::class.java)
             startActivity(intent)
         }
     }
